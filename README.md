@@ -1,3 +1,5 @@
+_This is edited to include the LG Optimus 3D_
+
 Submitting Patches
 ------------------
 We're open source, and patches are always welcome!
