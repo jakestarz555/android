@@ -53,6 +53,11 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  
+  <!--Adding support for the LGE Optimus 3D-->
+  <project path="device/lge/p920" name="berni987654321/android_device_lge_p920/" remote="github" revision="cm-10.2-dev" />
+  <project path="device/lge/p920-kernel" name="Pesach85/lge-kernel-omap4" remote="github" revision="master" groups="device,p920"/>
+  
   <project path="device/lge/mako" name="android_device_lge_mako" remote="omnirom" revision="android-4.3" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" revision="refs/tags/android-4.3_r2.1_" />
   <project path="device/sample" name="device/sample" groups="pdk" />
